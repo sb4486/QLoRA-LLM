@@ -1,4 +1,4 @@
-# Copyright (c) 2023 Michael Hu.
+# Copyright (c) 2024 sanchi bansal.
 # This project is released under the MIT License.
 # See the accompanying LICENSE file for details.
 
@@ -27,9 +27,7 @@ class Tokenizer:
         self.pad_id: int = self.sp_model.pad_id()
         self.unk_id: int = self.sp_model.unk_id()
 
-        logger.info(
-            f'#words: {self.vocab_size}, UNK ID: {self.unk_id}, BOS ID: {self.bos_id}, EOS ID: {self.eos_id}, PAD ID: {self.pad_id}'
-        )
+        logger.info(f'#words: {self.vocab_size}, UNK ID: {self.unk_id}, BOS ID: {self.bos_id}, EOS ID: {self.eos_id}, PAD ID: {self.pad_id}')
         assert self.sp_model.vocab_size() == self.sp_model.get_piece_size()
 
     @property

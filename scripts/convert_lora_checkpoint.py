@@ -1,4 +1,4 @@
-# Copyright (c) 2023 Michael Hu.
+# Copyright (c) 2024 sanchi bansal.
 # This project is released under the MIT License.
 # See the accompanying LICENSE file for details.
 
@@ -20,7 +20,7 @@ wd = Path(__file__).parent.parent.resolve()
 sys.path.append(str(wd))
 
 
-from qlora_llm.model_lora import Transformer, LoraModelArgs
+from qlora_llm.models.model_lora import Transformer, LoraModelArgs
 from qlora_llm.configs.finetune_lora import config as cfg
 
 

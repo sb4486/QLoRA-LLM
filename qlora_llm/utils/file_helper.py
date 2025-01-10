@@ -1,4 +1,4 @@
-# Copyright (c) 2023 Michael Hu.
+# Copyright (c) 2024 sanchi bansal.
 # This project is released under the MIT License.
 # See the accompanying LICENSE file for details.
 
